@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <h1 id="title">Survey</h1>1>
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="styles.css">
   </head>
 
   <body>
@@ -12,5 +13,33 @@
  
     <script  src="js/index.js"></script>
     <h1>Hello Word</h1>
+    <p id="description">Tu color favorito</p>
+    <form action="" id="survey-form">
+      <input type="text" id="name" required placeholder="Jorge">
+      <input type="email" id="email" required placeholder="aaaaa@aaa.com">
+      <input type="number" id="number" min="00000" max="99999" placeholder="111-11-111" >
+      <label for="" id="name-label">Nombre</label>
+      <label for="" id="email-label">Email</label>
+      <label for="" id="number-label">Number</label>
+     
+      <select name="type" id="dropdown">
+        <option value="value" ></option>
+        <input type="radio" name="group1" value="value2">
+        <input type="radio" name="group1" value="value2">
+       </select>
+       
+       <select name="type" id="dropdown1">
+        <option value="value" ></option>
+        <input type="radio" name="group2" value="value2">
+        <input type="radio" name="group2" value="value2">
+       </select> 
+      <input type="radio" name="opcion1" id="" value="opcion1">
+      <input type="radio" name="opcion2" id="" value="opcion2">
+
+      <input type="checkbox" name="" id="" value="opcion1">
+      <input type="checkbox" name="" id="" value="opcion2">
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <input type="submit" id="submit">
+      </form>
   </body>
 </html>
